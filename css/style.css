@@ -5,7 +5,10 @@ body {
 	background: #f5f5f5;
 	font-size: 24px;
 	color: #282828;
+	width: 1448px;
+	height: 1200px;
 	min-width: 320px;
+
 }
 img {
 	max-width: 100%;
@@ -15,6 +18,7 @@ img {
 .btn-red {
 	background-color: #d51e08;
 	color: #fff;
+	margin-left: 20px;
 }
 .btn-red:hover {
 	background-color: #ec4835;
@@ -24,17 +28,22 @@ h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 48px;
 	color: #282828;
+	line-height: 1.2;
+	margin-bottom: 40px;
 }
 h4 {
-	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
+	margin-top: 28px;
 }
 
 
 /*============================header===============================*/
+.menu-top {
+	margin: 18px 134px 18px 140px;
+}
 .brand {
-	font-family: 'PT Serif', serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 48px;
 	font-weight: 700;
 	color: #eb3c00;
@@ -54,6 +63,8 @@ h4 {
 }
 .login{
 	float: right;
+	margin-top: 12px;
+    margin-right: 22px;
 }
 .login a {
 	font-family: 'PT Serif', serif;
@@ -77,7 +88,13 @@ a.btn-red:hover {
 	padding: 14px 40px 15px 40px;
 	text-align: center;
 }
+.main-menu {
+	margin-bottom: 34px;
 
+}
+.main-menu-bg {
+	margin-left: -10px;
+}
 #main-menu a{
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
@@ -85,11 +102,13 @@ a.btn-red:hover {
 }
 .main-menu .container .navbar-nav>li>a{
 	padding-top: 25px;
+	margin-right: 8px;
 
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
 	background: #eb3c00;
 	height: 72px;
+	width: 76px;
 }
 .form-control {
 	font-family: 'Oswald', sans-serif;
@@ -112,21 +131,31 @@ a.btn-red:hover {
 .navbar-form {
 	margin-top: 14px;
 }
+/*============================main-content===============================*/
 .main-content .col-md-9 p {
 	font-size: 24px;
+	line-height: 1.5;
 }
 .main-content ul {
 	font-size: 18px;
 	padding-left:20px;
+	margin-top: 16px;
+	margin-bottom:54px;
 }
 .news {
 	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 	color: #eb3c00;
+
+}
+.images-news {
+	margin-top:16px;
 }
 .img-title {
 	line-height: 1.111;
-}.img-title a{
+	margin-top: 6px;
+}
+.img-title a{
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
@@ -137,11 +166,9 @@ a.btn-red:hover {
 
 
 
-
-
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 992px) {
+	.search {
+		width: 50px;
+	}
 
 }
