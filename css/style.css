@@ -1,0 +1,147 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+body {
+	font-family: 'PT Serif', serif;
+	background: #f5f5f5;
+	font-size: 24px;
+	color: #282828;
+	min-width: 320px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.btn-red {
+	background-color: #d51e08;
+	color: #fff;
+}
+.btn-red:hover {
+	background-color: #ec4835;
+
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+	color: #282828;
+}
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+/*============================header===============================*/
+.brand {
+	font-family: 'PT Serif', serif;
+	font-size: 48px;
+	font-weight: 700;
+	color: #eb3c00;
+	text-transform: uppercase;
+	float: left;
+}
+.brand:hover {
+	border: none;
+}
+.brand span {
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #282828;
+	text-transform: none;
+	opacity: .5;
+}
+.login{
+	float: right;
+}
+.login a {
+	font-family: 'PT Serif', serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #282828;
+}
+.login a i {
+	font-size: 14px;
+	color: #ee4400;
+}
+a.btn-red {
+	color: #fff;
+}
+a.btn-red:hover {
+	color: #282828;
+}
+.navbar-nav>li>a.btn-red {
+	width:191px;
+	height: 45px;
+	padding: 14px 40px 15px 40px;
+	text-align: center;
+}
+
+#main-menu a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+.main-menu .container .navbar-nav>li>a{
+	padding-top: 25px;
+
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background: #eb3c00;
+	height: 72px;
+}
+.form-control {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+}
+.form-control::-webkit-input-placeholder {color:#282828; opacity: .2;}
+.form-control::-moz-placeholder          {color:#282828; opacity: .2;}
+.form-control:-moz-placeholder           {color:#282828; opacity: .2;}
+.form-control:-ms-input-placeholder      {color:#282828; opacity: .2;}
+
+.navbar, .form-control, .input-group-btn:last-child>.btn {
+	border-radius: 0;
+}
+.input-group-btn:last-child>.btn {
+	border-left: none;
+}
+.input-group {
+	width: 269px;
+}
+.navbar-form {
+	margin-top: 14px;
+}
+.main-content .col-md-9 p {
+	font-size: 24px;
+}
+.main-content ul {
+	font-size: 18px;
+	padding-left:20px;
+}
+.news {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	color: #eb3c00;
+}
+.img-title {
+	line-height: 1.111;
+}.img-title a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #282828;
+	line-height: 1.111;
+}
+
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
